@@ -11,3 +11,11 @@ ForceTapGestureRecognizer *forceGesture = [[ForceTapGestureRecognizer alloc] ini
                                                                                      action:@selector(forceTapped:)];
 [self.tapView addGestureRecognizer:forceGesture];
 ```
+
+## Installation
+
+Simply add the following to your Podfile if you're using CocoaPods:
+
+```
+pod 'ForceTapGestureRecognizer'
+```
