@@ -9,6 +9,12 @@
 #import "ForceTapGestureRecognizer.h"
 #import <UIKit/UIGestureRecognizerSubclass.h>
 
+@interface ForceTapGestureRecognizer ()
+
+@property (nonatomic, readwrite) CGFloat force;
+
+@end
+
 @implementation ForceTapGestureRecognizer
 
 - (instancetype)init
@@ -37,10 +43,16 @@
     self.forceSensitivity = 1.;
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    self.force = 0.;
+}
+
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     UITouch *touch = [touches anyObject];
     if ([touch respondsToSelector:@selector(force)] && touch.force >= touch.maximumPossibleForce*self.forceSensitivity) {
+        self.force = touch.force;
         self.state = UIGestureRecognizerStateRecognized;
     }    
 }

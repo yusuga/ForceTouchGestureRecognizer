@@ -37,7 +37,7 @@
 
 - (void)viewForceTapped:(ForceTapGestureRecognizer *)sender
 {
-    [self updateGestureLabel:@"Force tapped"];
+    [self updateGestureLabel:[NSString stringWithFormat:@"Force tapped, force = %f", sender.force]];
 }
 
 - (void)viewSingleTapped:(ForceTapGestureRecognizer *)sender

@@ -15,4 +15,9 @@
  */
 @property (nonatomic) CGFloat forceSensitivity;
 
+/**
+ *  The force of the touch. It is available during the execution of the action.
+ */
+@property (nonatomic, readonly) CGFloat force;
+
 @end
