@@ -1,6 +1,6 @@
 //
-//  ForceTapGestureRecognizerExampleUITests.m
-//  ForceTapGestureRecognizerExampleUITests
+//  ForceTouchGestureRecognizerExampleUITests.m
+//  ForceTouchGestureRecognizerExampleUITests
 //
 //  Created by Yu Sugawara on 9/25/15.
 //  Copyright © 2015 Yu Sugawara. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ForceTapGestureRecognizerExampleUITests : XCTestCase
+@interface ForceTouchGestureRecognizerExampleUITests : XCTestCase
 
 @end
 
-@implementation ForceTapGestureRecognizerExampleUITests
+@implementation ForceTouchGestureRecognizerExampleUITests
 
 - (void)setUp {
     [super setUp];

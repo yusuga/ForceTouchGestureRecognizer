@@ -1,18 +1,18 @@
 //
 //  ViewController.m
-//  ForceTapGestureRecognizerExample
+//  ForceTouchGestureRecognizerExample
 //
 //  Created by Yu Sugawara on 9/25/15.
 //  Copyright © 2015 Yu Sugawara. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "ForceTapGestureRecognizer.h"
+#import "ForceTouchGestureRecognizer.h"
 
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *tapView;
-@property (strong, nonatomic) IBOutlet ForceTapGestureRecognizer *forceTapGestureRecognizer;
+@property (strong, nonatomic) IBOutlet ForceTouchGestureRecognizer *forceTouchGestureRecognizer;
 @property (strong, nonatomic) IBOutlet UITapGestureRecognizer *singleTapGestureRecognizer;
 @property (strong, nonatomic) IBOutlet UITapGestureRecognizer *doubleTapGestureRecognizer;
 @property (strong, nonatomic) IBOutlet UILongPressGestureRecognizer *longPressGestureRecognizer;
@@ -27,7 +27,8 @@
 {
     [super viewDidLoad];
     
-    [self.forceTapGestureRecognizer addTarget:self action:@selector(viewForceTapped:)];
+    [self.forceTouchGestureRecognizer addTarget:self action:@selector(viewForceTouched:)];
+    self.forceTouchGestureRecognizer.forceSensitivity = 0.5;
     [self.singleTapGestureRecognizer addTarget:self action:@selector(viewSingleTapped:)];
     [self.doubleTapGestureRecognizer addTarget:self action:@selector(viewDoubleTapped:)];
     [self.longPressGestureRecognizer addTarget:self action:@selector(viewlongPressed:)];
@@ -35,22 +36,22 @@
     [self.singleTapGestureRecognizer requireGestureRecognizerToFail:self.doubleTapGestureRecognizer];    
 }
 
-- (void)viewForceTapped:(ForceTapGestureRecognizer *)sender
+- (void)viewForceTouched:(ForceTouchGestureRecognizer *)sender
 {
     [self updateGestureLabel:[NSString stringWithFormat:@"Force tapped, force = %f", sender.force]];
 }
 
-- (void)viewSingleTapped:(ForceTapGestureRecognizer *)sender
+- (void)viewSingleTapped:(ForceTouchGestureRecognizer *)sender
 {
     [self updateGestureLabel:@"Single tapped"];
 }
 
-- (void)viewDoubleTapped:(ForceTapGestureRecognizer *)sender
+- (void)viewDoubleTapped:(ForceTouchGestureRecognizer *)sender
 {
     [self updateGestureLabel:@"Double tapped"];
 }
 
-- (void)viewlongPressed:(ForceTapGestureRecognizer *)sender
+- (void)viewlongPressed:(ForceTouchGestureRecognizer *)sender
 {
     if (sender.state == UIGestureRecognizerStateBegan) {
         [self updateGestureLabel:@"Long pressed - began"];

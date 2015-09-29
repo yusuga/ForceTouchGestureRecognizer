@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  ForceTapGestureRecognizerExample
+//  ForceTouchGestureRecognizerExample
 //
 //  Created by Yu Sugawara on 9/25/15.
 //  Copyright © 2015 Yu Sugawara. All rights reserved.

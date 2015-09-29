@@ -13,8 +13,8 @@
 		B859BA2C1BB569F000CF7D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B859BA2A1BB569F000CF7D6C /* Main.storyboard */; };
 		B859BA2E1BB569F000CF7D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B859BA2D1BB569F000CF7D6C /* Assets.xcassets */; };
 		B859BA311BB569F000CF7D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B859BA2F1BB569F000CF7D6C /* LaunchScreen.storyboard */; };
-		B859BA3C1BB569F000CF7D6C /* ForceTapGestureRecognizerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B859BA3B1BB569F000CF7D6C /* ForceTapGestureRecognizerExampleUITests.m */; };
-		B859BA491BB56AEE00CF7D6C /* ForceTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B859BA481BB56AEE00CF7D6C /* ForceTapGestureRecognizer.m */; settings = {ASSET_TAGS = (); }; };
+		B859BA3C1BB569F000CF7D6C /* ForceTouchGestureRecognizerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B859BA3B1BB569F000CF7D6C /* ForceTouchGestureRecognizerExampleUITests.m */; };
+		B859BA491BB56AEE00CF7D6C /* ForceTouchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B859BA481BB56AEE00CF7D6C /* ForceTouchGestureRecognizer.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B859BA1E1BB569F000CF7D6C /* ForceTapGestureRecognizerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceTapGestureRecognizerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B859BA1E1BB569F000CF7D6C /* ForceTouchGestureRecognizerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceTouchGestureRecognizerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B859BA221BB569F000CF7D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B859BA241BB569F000CF7D6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B859BA251BB569F000CF7D6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,11 +38,11 @@
 		B859BA2D1BB569F000CF7D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B859BA301BB569F000CF7D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B859BA321BB569F000CF7D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B859BA371BB569F000CF7D6C /* ForceTapGestureRecognizerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTapGestureRecognizerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B859BA3B1BB569F000CF7D6C /* ForceTapGestureRecognizerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForceTapGestureRecognizerExampleUITests.m; sourceTree = "<group>"; };
+		B859BA371BB569F000CF7D6C /* ForceTouchGestureRecognizerExample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchGestureRecognizerExample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B859BA3B1BB569F000CF7D6C /* ForceTouchGestureRecognizerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForceTouchGestureRecognizerExampleUITests.m; sourceTree = "<group>"; };
 		B859BA3D1BB569F000CF7D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B859BA471BB56AEE00CF7D6C /* ForceTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceTapGestureRecognizer.h; sourceTree = "<group>"; };
-		B859BA481BB56AEE00CF7D6C /* ForceTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceTapGestureRecognizer.m; sourceTree = "<group>"; };
+		B859BA471BB56AEE00CF7D6C /* ForceTouchGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceTouchGestureRecognizer.h; sourceTree = "<group>"; };
+		B859BA481BB56AEE00CF7D6C /* ForceTouchGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForceTouchGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +66,9 @@
 		B859BA151BB569F000CF7D6C = {
 			isa = PBXGroup;
 			children = (
-				B859BA201BB569F000CF7D6C /* ForceTapGestureRecognizerExample */,
-				B859BA461BB56A9D00CF7D6C /* ForceTapGestureRecognizer */,
-				B859BA3A1BB569F000CF7D6C /* ForceTapGestureRecognizerExampleUITests */,
+				B859BA201BB569F000CF7D6C /* ForceTouchGestureRecognizerExample */,
+				B859BA461BB56A9D00CF7D6C /* ForceTouchGestureRecognizer */,
+				B859BA3A1BB569F000CF7D6C /* ForceTouchGestureRecognizerExampleUITests */,
 				B859BA1F1BB569F000CF7D6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,13 +76,13 @@
 		B859BA1F1BB569F000CF7D6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B859BA1E1BB569F000CF7D6C /* ForceTapGestureRecognizerExample.app */,
-				B859BA371BB569F000CF7D6C /* ForceTapGestureRecognizerExampleUITests.xctest */,
+				B859BA1E1BB569F000CF7D6C /* ForceTouchGestureRecognizerExample.app */,
+				B859BA371BB569F000CF7D6C /* ForceTouchGestureRecognizerExample.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B859BA201BB569F000CF7D6C /* ForceTapGestureRecognizerExample */ = {
+		B859BA201BB569F000CF7D6C /* ForceTouchGestureRecognizerExample */ = {
 			isa = PBXGroup;
 			children = (
 				B859BA241BB569F000CF7D6C /* AppDelegate.h */,
@@ -95,7 +95,7 @@
 				B859BA321BB569F000CF7D6C /* Info.plist */,
 				B859BA211BB569F000CF7D6C /* Supporting Files */,
 			);
-			path = ForceTapGestureRecognizerExample;
+			path = ForceTouchGestureRecognizerExample;
 			sourceTree = "<group>";
 		};
 		B859BA211BB569F000CF7D6C /* Supporting Files */ = {
@@ -106,31 +106,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B859BA3A1BB569F000CF7D6C /* ForceTapGestureRecognizerExampleUITests */ = {
+		B859BA3A1BB569F000CF7D6C /* ForceTouchGestureRecognizerExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B859BA3B1BB569F000CF7D6C /* ForceTapGestureRecognizerExampleUITests.m */,
+				B859BA3B1BB569F000CF7D6C /* ForceTouchGestureRecognizerExampleUITests.m */,
 				B859BA3D1BB569F000CF7D6C /* Info.plist */,
 			);
-			path = ForceTapGestureRecognizerExampleUITests;
+			path = ForceTouchGestureRecognizerExampleUITests;
 			sourceTree = "<group>";
 		};
-		B859BA461BB56A9D00CF7D6C /* ForceTapGestureRecognizer */ = {
+		B859BA461BB56A9D00CF7D6C /* ForceTouchGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				B859BA471BB56AEE00CF7D6C /* ForceTapGestureRecognizer.h */,
-				B859BA481BB56AEE00CF7D6C /* ForceTapGestureRecognizer.m */,
+				B859BA471BB56AEE00CF7D6C /* ForceTouchGestureRecognizer.h */,
+				B859BA481BB56AEE00CF7D6C /* ForceTouchGestureRecognizer.m */,
 			);
-			name = ForceTapGestureRecognizer;
-			path = ../../Classes/ForceTapGestureRecognizer;
+			name = ForceTouchGestureRecognizer;
+			path = ../../Classes/ForceTouchGestureRecognizer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B859BA1D1BB569F000CF7D6C /* ForceTapGestureRecognizerExample */ = {
+		B859BA1D1BB569F000CF7D6C /* ForceTouchGestureRecognizerExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B859BA401BB569F000CF7D6C /* Build configuration list for PBXNativeTarget "ForceTapGestureRecognizerExample" */;
+			buildConfigurationList = B859BA401BB569F000CF7D6C /* Build configuration list for PBXNativeTarget "ForceTouchGestureRecognizerExample" */;
 			buildPhases = (
 				B859BA1A1BB569F000CF7D6C /* Sources */,
 				B859BA1B1BB569F000CF7D6C /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = ForceTapGestureRecognizerExample;
+			name = ForceTouchGestureRecognizerExample;
 			productName = ForceTapGestureRecognizerExample;
-			productReference = B859BA1E1BB569F000CF7D6C /* ForceTapGestureRecognizerExample.app */;
+			productReference = B859BA1E1BB569F000CF7D6C /* ForceTouchGestureRecognizerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B859BA361BB569F000CF7D6C /* ForceTapGestureRecognizerExampleUITests */ = {
+		B859BA361BB569F000CF7D6C /* ForceTouchGestureRecognizerExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B859BA431BB569F000CF7D6C /* Build configuration list for PBXNativeTarget "ForceTapGestureRecognizerExampleUITests" */;
+			buildConfigurationList = B859BA431BB569F000CF7D6C /* Build configuration list for PBXNativeTarget "ForceTouchGestureRecognizerExampleUITests" */;
 			buildPhases = (
 				B859BA331BB569F000CF7D6C /* Sources */,
 				B859BA341BB569F000CF7D6C /* Frameworks */,
@@ -158,9 +158,9 @@
 			dependencies = (
 				B859BA391BB569F000CF7D6C /* PBXTargetDependency */,
 			);
-			name = ForceTapGestureRecognizerExampleUITests;
+			name = ForceTouchGestureRecognizerExampleUITests;
 			productName = ForceTapGestureRecognizerExampleUITests;
-			productReference = B859BA371BB569F000CF7D6C /* ForceTapGestureRecognizerExampleUITests.xctest */;
+			productReference = B859BA371BB569F000CF7D6C /* ForceTouchGestureRecognizerExample.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B859BA191BB569F000CF7D6C /* Build configuration list for PBXProject "ForceTapGestureRecognizerExample" */;
+			buildConfigurationList = B859BA191BB569F000CF7D6C /* Build configuration list for PBXProject "ForceTouchGestureRecognizerExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -194,8 +194,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B859BA1D1BB569F000CF7D6C /* ForceTapGestureRecognizerExample */,
-				B859BA361BB569F000CF7D6C /* ForceTapGestureRecognizerExampleUITests */,
+				B859BA1D1BB569F000CF7D6C /* ForceTouchGestureRecognizerExample */,
+				B859BA361BB569F000CF7D6C /* ForceTouchGestureRecognizerExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,7 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B859BA291BB569F000CF7D6C /* ViewController.m in Sources */,
-				B859BA491BB56AEE00CF7D6C /* ForceTapGestureRecognizer.m in Sources */,
+				B859BA491BB56AEE00CF7D6C /* ForceTouchGestureRecognizer.m in Sources */,
 				B859BA261BB569F000CF7D6C /* AppDelegate.m in Sources */,
 				B859BA231BB569F000CF7D6C /* main.m in Sources */,
 			);
@@ -236,7 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B859BA3C1BB569F000CF7D6C /* ForceTapGestureRecognizerExampleUITests.m in Sources */,
+				B859BA3C1BB569F000CF7D6C /* ForceTouchGestureRecognizerExampleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +245,7 @@
 /* Begin PBXTargetDependency section */
 		B859BA391BB569F000CF7D6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B859BA1D1BB569F000CF7D6C /* ForceTapGestureRecognizerExample */;
+			target = B859BA1D1BB569F000CF7D6C /* ForceTouchGestureRecognizerExample */;
 			targetProxy = B859BA381BB569F000CF7D6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -355,11 +355,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
-				INFOPLIST_FILE = ForceTapGestureRecognizerExample/Info.plist;
+				INFOPLIST_FILE = ForceTouchGestureRecognizerExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yusuga.ForceTapGestureRecognizerExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusuga.ForceTouchGestureRecognizerExample;
+				PRODUCT_NAME = ForceTouchGestureRecognizerExample;
 			};
 			name = Debug;
 		};
@@ -368,22 +368,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
-				INFOPLIST_FILE = ForceTapGestureRecognizerExample/Info.plist;
+				INFOPLIST_FILE = ForceTouchGestureRecognizerExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yusuga.ForceTapGestureRecognizerExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusuga.ForceTouchGestureRecognizerExample;
+				PRODUCT_NAME = ForceTouchGestureRecognizerExample;
 			};
 			name = Release;
 		};
 		B859BA441BB569F000CF7D6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = ForceTapGestureRecognizerExampleUITests/Info.plist;
+				INFOPLIST_FILE = ForceTouchGestureRecognizerExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yusuga.ForceTapGestureRecognizerExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ForceTapGestureRecognizerExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusuga.ForceTouchGestureRecognizerExampleUITests;
+				PRODUCT_NAME = ForceTouchGestureRecognizerExample;
+				TEST_TARGET_NAME = ForceTouchGestureRecognizerExample;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -391,11 +391,11 @@
 		B859BA451BB569F000CF7D6C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = ForceTapGestureRecognizerExampleUITests/Info.plist;
+				INFOPLIST_FILE = ForceTouchGestureRecognizerExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yusuga.ForceTapGestureRecognizerExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = ForceTapGestureRecognizerExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusuga.ForceTouchGestureRecognizerExampleUITests;
+				PRODUCT_NAME = ForceTouchGestureRecognizerExample;
+				TEST_TARGET_NAME = ForceTouchGestureRecognizerExample;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -403,7 +403,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B859BA191BB569F000CF7D6C /* Build configuration list for PBXProject "ForceTapGestureRecognizerExample" */ = {
+		B859BA191BB569F000CF7D6C /* Build configuration list for PBXProject "ForceTouchGestureRecognizerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B859BA3E1BB569F000CF7D6C /* Debug */,
@@ -412,7 +412,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B859BA401BB569F000CF7D6C /* Build configuration list for PBXNativeTarget "ForceTapGestureRecognizerExample" */ = {
+		B859BA401BB569F000CF7D6C /* Build configuration list for PBXNativeTarget "ForceTouchGestureRecognizerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B859BA411BB569F000CF7D6C /* Debug */,
@@ -421,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B859BA431BB569F000CF7D6C /* Build configuration list for PBXNativeTarget "ForceTapGestureRecognizerExampleUITests" */ = {
+		B859BA431BB569F000CF7D6C /* Build configuration list for PBXNativeTarget "ForceTouchGestureRecognizerExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B859BA441BB569F000CF7D6C /* Debug */,

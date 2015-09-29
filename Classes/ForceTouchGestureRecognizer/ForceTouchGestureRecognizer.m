@@ -1,21 +1,21 @@
 //
-//  ForceTapGestureRecognizer.m
-//  ForceTapGestureRecognizerExample
+//  ForceTouchGestureRecognizer.m
+//  ForceTouchGestureRecognizerExample
 //
 //  Created by Yu Sugawara on 9/25/15.
 //  Copyright © 2015 Yu Sugawara. All rights reserved.
 //
 
-#import "ForceTapGestureRecognizer.h"
+#import "ForceTouchGestureRecognizer.h"
 #import <UIKit/UIGestureRecognizerSubclass.h>
 
-@interface ForceTapGestureRecognizer ()
+@interface ForceTouchGestureRecognizer ()
 
 @property (nonatomic, readwrite) CGFloat force;
 
 @end
 
-@implementation ForceTapGestureRecognizer
+@implementation ForceTouchGestureRecognizer
 
 - (instancetype)init
 {

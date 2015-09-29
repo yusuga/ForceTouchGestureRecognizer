@@ -43,7 +43,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jJ-pl-5oJ">
                                 <rect key="frame" x="300" y="170" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -58,7 +58,7 @@
                     <navigationItem key="navigationItem" id="WrU-Q4-WtA"/>
                     <connections>
                         <outlet property="doubleTapGestureRecognizer" destination="mBh-FD-LPE" id="qOq-Es-Y8u"/>
-                        <outlet property="forceTapGestureRecognizer" destination="IQj-7E-lnP" id="MHU-Lc-mad"/>
+                        <outlet property="forceTouchGestureRecognizer" destination="IQj-7E-lnP" id="GHd-4Z-gOt"/>
                         <outlet property="gestureLabel" destination="6jJ-pl-5oJ" id="fXT-ps-nw0"/>
                         <outlet property="longPressGestureRecognizer" destination="AuD-wX-YhP" id="Jwg-fm-Ps9"/>
                         <outlet property="singleTapGestureRecognizer" destination="k3N-hZ-0q0" id="McF-8x-TBV"/>
@@ -66,7 +66,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="IQj-7E-lnP" customClass="ForceTapGestureRecognizer"/>
+                <tapGestureRecognizer id="IQj-7E-lnP" customClass="ForceTouchGestureRecognizer"/>
                 <tapGestureRecognizer id="k3N-hZ-0q0"/>
                 <tapGestureRecognizer numberOfTapsRequired="2" id="mBh-FD-LPE"/>
                 <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="AuD-wX-YhP"/>
