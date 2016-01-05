@@ -51,10 +51,21 @@
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     UITouch *touch = [touches anyObject];
-    if ([touch respondsToSelector:@selector(force)] && touch.force >= touch.maximumPossibleForce*self.forceSensitivity) {
+    UIView *view = touch.view;
+
+    if (!CGRectContainsPoint(view.bounds, [touch locationInView:view])) {
+        self.state = UIGestureRecognizerStateFailed;
+        return;
+    }
+    
+    if ([touch respondsToSelector:@selector(force)] &&
+        [touch respondsToSelector:@selector(maximumPossibleForce)] &&
+        touch.maximumPossibleForce > 0 &&
+        touch.force >= touch.maximumPossibleForce*self.forceSensitivity)
+    {
         self.force = touch.force;
         self.state = UIGestureRecognizerStateRecognized;
-    }    
+    }
 }
 
 @end
