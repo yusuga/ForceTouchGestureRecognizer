@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ForceTouchGestureRecognizer'
-  s.version = '0.0.3'
+  s.version = '0.0.4'
   s.summary = 'Tap gesture recognizer of 3D touch.'
   s.homepage = 'https://github.com/yusuga/ForceTouchGestureRecognizer'
   s.license = 'MIT'
